@@ -9,7 +9,7 @@
     <textvar name="COMPANY">ChurrasCod Electronics</textvar>
     <textvar name="DESIGNER">FR</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">cff0edd</textvar>
+    <textvar name="GIT_HASH_PCB">f3b92a3</textvar>
     <textvar name="GIT_HASH_SCH">8b1d373</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV Strobe</textvar>
@@ -18,8 +18,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">14-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-14</textvar>
+    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -87,7 +87,7 @@
     </sheet>
     <sheet number="2" name="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
       <title_block>
-        <title>Project Architecture</title>
+        <title>Block diagram</title>
         <company>ChurrasCod Electronics</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
@@ -105,7 +105,7 @@
     </sheet>
     <sheet number="3" name="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
       <title_block>
-        <title>Sheet Title A</title>
+        <title>HMI</title>
         <company>ChurrasCod Electronics</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
@@ -141,158 +141,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="H701">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>78754055-3431-42db-8988-a220b9c69037</tstamps>
-    </comp>
-    <comp ref="H702">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>3aacdbdd-775b-4e33-a3f2-50949a74159a</tstamps>
-    </comp>
-    <comp ref="H703">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>b657ffe4-f3ed-4585-aba9-ce75624d30ad</tstamps>
-    </comp>
-    <comp ref="H704">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>f0e54138-2307-4a19-8975-b80b83c5fe73</tstamps>
-    </comp>
-    <comp ref="H705">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>9a4b35f8-bf55-44f8-b0cc-7f0c442f7314</tstamps>
-    </comp>
-    <comp ref="H706">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>b6189eaa-cc9b-41a2-ae11-2e23808b13fb</tstamps>
-    </comp>
-    <comp ref="H707">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>c73312d8-350f-455f-ab99-a9c573777b03</tstamps>
-    </comp>
-    <comp ref="H708">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole without connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole without connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value="Block diagram"/>
-      <property name="Sheetfile" value="Block diagram.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*"/>
-      <sheetpath names="/Block diagram/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
-      <tstamps>f1cc0e6f-5c16-4166-bd40-cedcb721204a</tstamps>
-    </comp>
     <comp ref="C701">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
@@ -306,6 +154,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -324,6 +173,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -342,6 +192,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -360,6 +211,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -378,6 +230,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -396,6 +249,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -414,6 +268,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -432,6 +287,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -450,6 +306,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -468,6 +325,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -486,6 +344,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -504,6 +363,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -522,6 +382,7 @@
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -542,6 +403,7 @@
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="LED diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -562,10 +424,171 @@
       <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="LED diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>a0265b28-d080-4aba-8bc9-26ae6e0055f4</tstamps>
+    </comp>
+    <comp ref="H701">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>78754055-3431-42db-8988-a220b9c69037</tstamps>
+    </comp>
+    <comp ref="H702">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>3aacdbdd-775b-4e33-a3f2-50949a74159a</tstamps>
+    </comp>
+    <comp ref="H703">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>b657ffe4-f3ed-4585-aba9-ce75624d30ad</tstamps>
+    </comp>
+    <comp ref="H704">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>f0e54138-2307-4a19-8975-b80b83c5fe73</tstamps>
+    </comp>
+    <comp ref="H705">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>9a4b35f8-bf55-44f8-b0cc-7f0c442f7314</tstamps>
+    </comp>
+    <comp ref="H706">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>b6189eaa-cc9b-41a2-ae11-2e23808b13fb</tstamps>
+    </comp>
+    <comp ref="H707">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>c73312d8-350f-455f-ab99-a9c573777b03</tstamps>
+    </comp>
+    <comp ref="H708">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="HMI"/>
+      <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>f1cc0e6f-5c16-4166-bd40-cedcb721204a</tstamps>
     </comp>
     <comp ref="J701">
       <value>ZHOURI DC3</value>
@@ -582,6 +605,7 @@
       <property name="Field5" value="https://www.lcsc.com/product-detail/IDC-Connectors_ZHOURI-DC3-2-54-10PAL_C5156674.html?s_z=n_JILN%2520321010SG0ABK00A01"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -600,6 +624,7 @@
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector USB micro"/>
       <property name="ki_fp_filters" value="USB*Micro*B*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -618,6 +643,7 @@
       <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -636,6 +662,7 @@
       <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -654,6 +681,7 @@
       <libsource lib="Connector" part="Conn_01x14_Pin" description="Generic connector, single row, 01x14, script generated"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -672,6 +700,7 @@
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -692,6 +721,7 @@
       <property name="Field5" value="https://www.lcsc.com/product-detail/IDC-Connectors_hanxia-HX-JN1-27-2x5-WZ-H4-9_C42372551.html?s_z=n_JILN%2520321010SG0ABK00A01"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -712,6 +742,7 @@
       <property name="Field5" value="https://lcsc.com/product-detail/IDC-Connectors_JILN-321010SG0ABK00A01_C429962.html?s_z=n_idc"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -730,6 +761,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -739,17 +771,18 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
+      <property name="RefDes" value="700"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>5a8e3de8-d01e-4712-a550-4695803f7d1e</tstamps>
     </comp>
@@ -766,6 +799,7 @@
       <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="Jumper SPST"/>
       <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -784,6 +818,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -793,17 +828,18 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
       <fields>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
+      <property name="RefDes" value="700"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>19b35e19-4020-490f-8b6a-af69a88b04d5</tstamps>
     </comp>
@@ -820,6 +856,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -838,6 +875,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -847,17 +885,18 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
       <fields>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
+      <property name="RefDes" value="700"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>66760344-eb8e-4980-9652-e0de84af7a9c</tstamps>
     </comp>
@@ -874,6 +913,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -892,6 +932,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -910,6 +951,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -928,6 +970,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -946,6 +989,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -964,6 +1008,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -973,17 +1018,18 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper, 2-pole, small symbol, bridged</description>
       <fields>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
+      <property name="RefDes" value="700"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>1b7ec22a-78d6-4e27-b6de-be4e7238bbe0</tstamps>
     </comp>
@@ -1000,6 +1046,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1016,6 +1063,7 @@
       <libsource lib="personal" part="OLED_128x64_SSD1306_no_pins" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>801f1707-33ac-4dbf-bdd5-1471e9a1901e</tstamps>
     </comp>
@@ -1030,25 +1078,11 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>d6369050-73a7-4a49-9b58-502a27e0005a</tstamps>
-    </comp>
-    <comp ref="P2">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>abb8bc6f-b34e-4606-9590-290d84c34e4f</tstamps>
     </comp>
     <comp ref="P3">
       <value>~</value>
@@ -1061,6 +1095,7 @@
       <libsource lib="personal" part="Cosmetic_PWR_SRC" description="Local power symbol (source), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1076,6 +1111,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1091,6 +1127,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1106,6 +1143,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1121,6 +1159,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1136,55 +1175,11 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>ccd89851-5732-4ea4-8691-b4659fc76fdb</tstamps>
-    </comp>
-    <comp ref="P9">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>479981eb-1e86-4cfb-b11c-aa3d65008c6e</tstamps>
-    </comp>
-    <comp ref="P10">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>eb390539-3a08-4816-a52f-579fc73af8da</tstamps>
-    </comp>
-    <comp ref="P11">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>19a7565a-c432-44d6-ae77-b51b031770da</tstamps>
     </comp>
     <comp ref="P706">
       <value>~</value>
@@ -1197,25 +1192,11 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>f87b7070-3f87-4ec6-9945-8b5590b80416</tstamps>
-    </comp>
-    <comp ref="P710">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>93a817c0-6e87-49a1-96cc-4a913bca4350</tstamps>
     </comp>
     <comp ref="P714">
       <value>~</value>
@@ -1227,6 +1208,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1242,6 +1224,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1257,145 +1240,11 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>57e9047c-3455-403b-bbfe-9f428a920ac1</tstamps>
-    </comp>
-    <comp ref="P719">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>80dd5cbe-cb25-4d82-b1da-0f3454432622</tstamps>
-    </comp>
-    <comp ref="P720">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>9a16fe81-2f58-4ad2-b0ce-e11fa79b86c7</tstamps>
-    </comp>
-    <comp ref="P721">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>6894fcbf-a984-4185-8e6a-75570f5eaa67</tstamps>
-    </comp>
-    <comp ref="P722">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>d060019c-7ccb-46cc-b0b5-334ac893e182</tstamps>
-    </comp>
-    <comp ref="P723">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>10db9338-48ef-4516-8627-2425d4ce9f38</tstamps>
-    </comp>
-    <comp ref="P724">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>ec4e2270-04d1-4511-8ffc-2814fd92e50d</tstamps>
-    </comp>
-    <comp ref="P725">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>bf42e2e7-23e5-4eaa-975d-d9f50b1e3ad6</tstamps>
-    </comp>
-    <comp ref="P726">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>94ddd3ed-1fd7-4880-9b39-d8f122efe1e3</tstamps>
-    </comp>
-    <comp ref="P727">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>6fbf87d4-5084-4bf2-b4ec-3a5009a97505</tstamps>
     </comp>
     <comp ref="P728">
       <value>~</value>
@@ -1408,6 +1257,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1424,6 +1274,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1440,6 +1291,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1455,6 +1307,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1470,6 +1323,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1486,6 +1340,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1501,25 +1356,11 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>a448f1a2-2d68-4278-8410-82b0afc53425</tstamps>
-    </comp>
-    <comp ref="P735">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>ef0c75c7-0678-435f-ac6f-f84ace938066</tstamps>
     </comp>
     <comp ref="P736">
       <value>~</value>
@@ -1531,40 +1372,11 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>c4227584-ed62-4e0f-b8f3-e8420d88b778</tstamps>
-    </comp>
-    <comp ref="P737">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>a7628b57-e639-4abb-a81e-f67aa0ac99f3</tstamps>
-    </comp>
-    <comp ref="P738">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>ca2a466c-5eae-4e34-9007-ef026449bdc0</tstamps>
     </comp>
     <comp ref="P739">
       <value>~</value>
@@ -1577,70 +1389,11 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>9eace350-d7a7-44fe-800b-bba5e88192af</tstamps>
-    </comp>
-    <comp ref="P740">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>aff3109d-033b-4381-9061-777606807453</tstamps>
-    </comp>
-    <comp ref="P741">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>f05213b6-b8c4-4f81-9aa0-3b63d974125c</tstamps>
-    </comp>
-    <comp ref="P742">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>ccc83775-d9d9-4e71-9c16-0efbf6154426</tstamps>
-    </comp>
-    <comp ref="P743">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>5048a9ae-0579-4cc9-8794-a36b0a4640d0</tstamps>
     </comp>
     <comp ref="P744">
       <value>~</value>
@@ -1652,6 +1405,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1667,6 +1421,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1682,6 +1437,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1697,6 +1453,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1712,6 +1469,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1728,6 +1486,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1743,6 +1502,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1758,6 +1518,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1773,6 +1534,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1788,6 +1550,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1803,6 +1566,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1818,6 +1582,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1833,6 +1598,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1848,6 +1614,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1863,6 +1630,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1878,6 +1646,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1893,6 +1662,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1908,6 +1678,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1923,6 +1694,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1938,6 +1710,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1953,6 +1726,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1968,6 +1742,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1983,6 +1758,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1998,6 +1774,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2013,6 +1790,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2028,6 +1806,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2044,6 +1823,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2059,6 +1839,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2074,6 +1855,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2089,6 +1871,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2104,6 +1887,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2119,6 +1903,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2134,55 +1919,11 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>bf86b60b-627e-47e7-b4d4-760134f96dc8</tstamps>
-    </comp>
-    <comp ref="P778">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>a8fb022c-551c-485e-ac11-0be280867e52</tstamps>
-    </comp>
-    <comp ref="P779">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>a922311a-1aee-4455-bcc4-7695fab4459c</tstamps>
-    </comp>
-    <comp ref="P780">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>8846ce00-792f-42fb-a745-5f51ab029af8</tstamps>
     </comp>
     <comp ref="P781">
       <value>~</value>
@@ -2194,6 +1935,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2209,25 +1951,11 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>4f8feb5f-32bd-4612-8a2a-d83c2d502bdf</tstamps>
-    </comp>
-    <comp ref="P783">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>e169105b-b2d0-41fc-97e4-c962a8286e96</tstamps>
     </comp>
     <comp ref="P784">
       <value>~</value>
@@ -2239,25 +1967,11 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>73182641-48bd-4328-9c73-22d91bd6b3ee</tstamps>
-    </comp>
-    <comp ref="P785">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>abf512ae-dcac-4ff6-a425-5859693197b4</tstamps>
     </comp>
     <comp ref="P786">
       <value>~</value>
@@ -2269,40 +1983,11 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>502aa4ab-e82d-4b90-bac1-edd5dae7ec6d</tstamps>
-    </comp>
-    <comp ref="P787">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>07f5bcf7-8530-4c50-803c-381c86cd8a95</tstamps>
-    </comp>
-    <comp ref="P788">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>762b15cf-e20f-4a52-951e-bb2152c8dd78</tstamps>
     </comp>
     <comp ref="P789">
       <value>~</value>
@@ -2315,6 +2000,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2330,6 +2016,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2346,6 +2033,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2362,6 +2050,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2378,6 +2067,7 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2394,70 +2084,11 @@
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>9b997fe3-490d-461f-86ea-c1a436f34b3a</tstamps>
-    </comp>
-    <comp ref="P795">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>fbb34f50-181e-4521-a16f-b7be8f40ba8a</tstamps>
-    </comp>
-    <comp ref="P796">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>dc9fa965-21d1-48b1-bf2a-de724ccd2028</tstamps>
-    </comp>
-    <comp ref="P797">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>2917e021-867e-4230-b379-8060b70a8352</tstamps>
-    </comp>
-    <comp ref="P798">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>96fbd210-704c-4185-bdd2-7a327a41f5b9</tstamps>
     </comp>
     <comp ref="P799">
       <value>~</value>
@@ -2469,6 +2100,7 @@
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2484,6 +2116,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2499,6 +2132,7 @@
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2514,6 +2148,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2529,6 +2164,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2544,6 +2180,7 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2559,25 +2196,11 @@
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>ca0ac2cd-d53c-437f-a662-90024cd647df</tstamps>
-    </comp>
-    <comp ref="P806">
-      <value>~</value>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_GND2" description=""/>
-      <property name="Sheetname" value="HMI"/>
-      <property name="Sheetfile" value="HMI.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>8e5d8058-6ee7-433a-a85b-a6157b12768a</tstamps>
     </comp>
     <comp ref="R701">
       <value>10k</value>
@@ -2592,6 +2215,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2610,6 +2234,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2628,6 +2253,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2646,6 +2272,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2664,6 +2291,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2682,6 +2310,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2700,6 +2329,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2718,6 +2348,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2736,6 +2367,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2754,6 +2386,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2772,6 +2405,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2790,6 +2424,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2808,6 +2443,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2826,6 +2462,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2844,6 +2481,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2862,6 +2500,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2880,6 +2519,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2898,6 +2538,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2916,6 +2557,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2934,6 +2576,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2952,6 +2595,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2970,6 +2614,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2988,6 +2633,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3006,6 +2652,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3024,6 +2671,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3042,6 +2690,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3060,6 +2709,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3078,6 +2728,7 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3096,6 +2747,7 @@
       <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="rotary switch encoder switch push button"/>
       <property name="ki_fp_filters" value="RotaryEncoder*Switch*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3114,6 +2766,7 @@
       <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="rotary switch encoder switch push button"/>
       <property name="ki_fp_filters" value="RotaryEncoder*Switch*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3132,6 +2785,7 @@
       <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="rotary switch encoder switch push button"/>
       <property name="ki_fp_filters" value="RotaryEncoder*Switch*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3148,6 +2802,7 @@
       <libsource lib="personal" part="TFT_2.8_IN_320x240" description=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>cf1ef304-887a-4fd6-aa6c-ba5e6c3ea347</tstamps>
     </comp>
@@ -3164,6 +2819,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3182,6 +2838,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3200,6 +2857,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3218,6 +2876,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3236,6 +2895,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3254,6 +2914,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3272,6 +2933,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3290,6 +2952,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3308,6 +2971,7 @@
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3326,6 +2990,7 @@
       <libsource lib="MCU_ST_STM32G4" part="STM32G431K8Tx" description="STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="Arm Cortex-M4 STM32G4 STM32G4x1"/>
       <property name="ki_fp_filters" value="LQFP*7x7mm*P0.8mm*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3344,6 +3009,7 @@
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
+      <property name="RefDes" value="700"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <property name="ki_fp_filters" value="Crystal*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -3605,6 +3271,26 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Small_Bridged">
+      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Small_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MCU_ST_STM32G4" part="STM32G431K8Tx">
       <description>STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32</description>
       <docs>https://www.st.com/resource/en/datasheet/stm32g431k8.pdf</docs>
@@ -3666,18 +3352,6 @@
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
-    </libpart>
-    <libpart lib="personal" part="Cosmetic_GND2">
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value"/>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
     </libpart>
     <libpart lib="personal" part="Cosmetic_IN">
       <fields>
@@ -3855,115 +3529,47 @@
       <node ref="TP701" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="7" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/Block diagram/HMI/GND" class="Default">
-      <node ref="C701" pin="2" pintype="passive"/>
-      <node ref="C702" pin="2" pintype="passive"/>
-      <node ref="C703" pin="2" pintype="passive"/>
-      <node ref="C704" pin="2" pintype="passive"/>
-      <node ref="C705" pin="2" pintype="passive"/>
-      <node ref="C706" pin="2" pintype="passive"/>
-      <node ref="C707" pin="2" pintype="passive"/>
-      <node ref="C708" pin="2" pintype="passive"/>
-      <node ref="C709" pin="2" pintype="passive"/>
-      <node ref="C710" pin="2" pintype="passive"/>
-      <node ref="C711" pin="2" pintype="passive"/>
-      <node ref="C712" pin="2" pintype="passive"/>
-      <node ref="C713" pin="2" pintype="passive"/>
-      <node ref="J701" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J702" pin="5" pinfunction="GND" pintype="power_out"/>
-      <node ref="J703" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J705" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J707" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J707" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J708" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J708" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="P10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P11" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P710" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P719" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P720" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P721" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P722" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P723" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P724" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P725" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P726" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P727" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P735" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P737" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P738" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P741" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P742" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P743" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P778" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P779" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P780" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P783" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P785" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P787" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P788" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P795" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P796" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P797" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P798" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P806" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P9" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R727" pin="2" pintype="passive"/>
-      <node ref="R728" pin="2" pintype="passive"/>
-      <node ref="SW701" pin="C" pinfunction="C" pintype="passive"/>
-      <node ref="SW701" pin="S2" pinfunction="S2" pintype="passive"/>
-      <node ref="SW702" pin="C" pinfunction="C" pintype="passive"/>
-      <node ref="SW702" pin="S2" pinfunction="S2" pintype="passive"/>
-      <node ref="SW703" pin="C" pinfunction="C" pintype="passive"/>
-      <node ref="SW703" pin="S2" pinfunction="S2" pintype="passive"/>
-      <node ref="U701" pin="14" pinfunction="VSSA" pintype="power_in"/>
-      <node ref="U701" pin="16" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U701" pin="32" pinfunction="VSS" pintype="passive"/>
-      <node ref="Y701" pin="2" pinfunction="G" pintype="passive"/>
-      <node ref="Y701" pin="4" pinfunction="G" pintype="passive"/>
-    </net>
-    <net code="12" name="/Block diagram/HMI/LV_NRST" class="Default">
+    <net code="11" name="/Block diagram/HMI/LV_NRST" class="Default">
       <node ref="J701" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J708" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P804" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R701" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="/Block diagram/HMI/LV_RX" class="Default">
+    <net code="12" name="/Block diagram/HMI/LV_RX" class="Default">
       <node ref="J701" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P766" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP709" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="30" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/Block diagram/HMI/LV_SWDCLK" class="Default">
+    <net code="13" name="/Block diagram/HMI/LV_SWDCLK" class="Default">
       <node ref="J701" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J708" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="P7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P805" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="15" name="/Block diagram/HMI/LV_SWDIO" class="Default">
+    <net code="14" name="/Block diagram/HMI/LV_SWDIO" class="Default">
       <node ref="J701" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J708" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="P6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P801" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="/Block diagram/HMI/LV_TX" class="Default">
+    <net code="15" name="/Block diagram/HMI/LV_TX" class="Default">
       <node ref="J701" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="P5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P763" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP707" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="29" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/Block diagram/HMI/NRST" class="Default">
+    <net code="16" name="/Block diagram/HMI/NRST" class="Default">
       <node ref="J707" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P744" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P802" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R725" pin="2" pintype="passive"/>
       <node ref="U701" pin="4" pinfunction="PG10" pintype="bidirectional"/>
     </net>
-    <net code="18" name="/Block diagram/HMI/PER" class="Default">
+    <net code="17" name="/Block diagram/HMI/PER" class="Default">
       <node ref="C704" pin="1" pintype="passive"/>
       <node ref="P716" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P746" pin="1" pinfunction="1" pintype="passive"/>
@@ -3974,7 +3580,7 @@
       <node ref="TP703" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="6" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="19" name="/Block diagram/HMI/SL3" class="Default">
+    <net code="18" name="/Block diagram/HMI/SL3" class="Default">
       <node ref="C705" pin="1" pintype="passive"/>
       <node ref="C706" pin="1" pintype="passive"/>
       <node ref="C710" pin="1" pintype="passive"/>
@@ -3990,7 +3596,7 @@
       <node ref="J707" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J708" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J708" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="JP702" pin="2" pintype="passive"/>
+      <node ref="JP702" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP703" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="P1" pin="1" pintype="power_in"/>
       <node ref="P3" pin="1" pintype="power_in"/>
@@ -4013,19 +3619,19 @@
       <node ref="R725" pin="1" pintype="passive"/>
       <node ref="U701" pin="1" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="20" name="/Block diagram/HMI/SL3_A" class="Default">
+    <net code="19" name="/Block diagram/HMI/SL3_A" class="Default">
       <node ref="C709" pin="1" pintype="passive"/>
-      <node ref="JP705" pin="2" pintype="passive"/>
+      <node ref="JP705" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U701" pin="15" pinfunction="VDDA" pintype="power_in"/>
     </net>
-    <net code="21" name="/Block diagram/HMI/SL3_J" class="Default">
+    <net code="20" name="/Block diagram/HMI/SL3_J" class="Default">
       <node ref="C707" pin="1" pintype="passive"/>
       <node ref="C708" pin="1" pintype="passive"/>
       <node ref="JP703" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="JP705" pin="1" pintype="passive"/>
+      <node ref="JP705" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U701" pin="17" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="22" name="/Block diagram/HMI/ST_LED" class="Default">
+    <net code="21" name="/Block diagram/HMI/ST_LED" class="Default">
       <node ref="P745" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P773" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R726" pin="2" pintype="passive"/>
@@ -4033,7 +3639,7 @@
       <node ref="TP708" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="5" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="23" name="/Block diagram/HMI/SUP" class="Default">
+    <net code="22" name="/Block diagram/HMI/SUP" class="Default">
       <node ref="C703" pin="1" pintype="passive"/>
       <node ref="P715" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P748" pin="1" pinfunction="1" pintype="passive"/>
@@ -4044,56 +3650,148 @@
       <node ref="TP702" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="8" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/Block diagram/HMI/SWDCLK" class="Default">
+    <net code="23" name="/Block diagram/HMI/SWDCLK" class="Default">
       <node ref="J707" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="P777" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P803" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="24" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="25" name="/Block diagram/HMI/SWDIO" class="Default">
+    <net code="24" name="/Block diagram/HMI/SWDIO" class="Default">
       <node ref="J707" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="P775" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P800" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="23" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/Block diagram/HMI/SWO" class="Default">
+    <net code="25" name="/Block diagram/HMI/SWO" class="Default">
       <node ref="J707" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="P754" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P799" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="26" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/Block diagram/HMI/TCH_CS" class="Default">
+    <net code="26" name="/Block diagram/HMI/TCH_CS" class="Default">
       <node ref="JP710" pin="1" pintype="passive"/>
-      <node ref="JP715" pin="2" pintype="passive"/>
+      <node ref="JP715" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="P762" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P782" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="28" name="/Block diagram/HMI/TCH_IRQ" class="Default">
+    <net code="27" name="/Block diagram/HMI/TCH_IRQ" class="Default">
       <node ref="J705" pin="14" pinfunction="Pin_14" pintype="passive"/>
-      <node ref="JP708" pin="1" pintype="passive"/>
+      <node ref="JP708" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="P753" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P757" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="29" name="/Block diagram/HMI/USB_DM" class="Default">
+    <net code="28" name="/Block diagram/HMI/USB_DM" class="Default">
       <node ref="JP706" pin="2" pintype="passive"/>
       <node ref="P736" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P770" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="21" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/Block diagram/HMI/USB_DP" class="Default">
+    <net code="29" name="/Block diagram/HMI/USB_DP" class="Default">
       <node ref="JP704" pin="2" pintype="passive"/>
       <node ref="P732" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P772" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U701" pin="22" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="31" name="Earth" class="Default">
+    <net code="30" name="Earth" class="Default">
       <node ref="J702" pin="6" pinfunction="Shield" pintype="passive"/>
       <node ref="JP701" pin="2" pintype="passive"/>
-      <node ref="P740" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(C701-Pad1)" class="Default">
+    <net code="31" name="GND" class="Default">
+      <node ref="C701" pin="2" pintype="passive"/>
+      <node ref="C702" pin="2" pintype="passive"/>
+      <node ref="C703" pin="2" pintype="passive"/>
+      <node ref="C704" pin="2" pintype="passive"/>
+      <node ref="C705" pin="2" pintype="passive"/>
+      <node ref="C706" pin="2" pintype="passive"/>
+      <node ref="C707" pin="2" pintype="passive"/>
+      <node ref="C708" pin="2" pintype="passive"/>
+      <node ref="C709" pin="2" pintype="passive"/>
+      <node ref="C710" pin="2" pintype="passive"/>
+      <node ref="C711" pin="2" pintype="passive"/>
+      <node ref="C712" pin="2" pintype="passive"/>
+      <node ref="C713" pin="2" pintype="passive"/>
+      <node ref="J701" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J702" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J703" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J705" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J707" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J707" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J708" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J708" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R727" pin="2" pintype="passive"/>
+      <node ref="R728" pin="2" pintype="passive"/>
+      <node ref="SW701" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="SW701" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="SW702" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="SW702" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="SW703" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="SW703" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="U701" pin="14" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U701" pin="16" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U701" pin="32" pinfunction="VSS" pintype="passive"/>
+      <node ref="Y701" pin="2" pinfunction="G" pintype="passive"/>
+      <node ref="Y701" pin="4" pinfunction="G" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D701-K)" class="Default">
+      <node ref="D701" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D702" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R726" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J701-Pin_2)" class="Default">
+      <node ref="J701" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP701" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J702-D+)" class="Default">
+      <node ref="J702" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="JP704" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J702-D-)" class="Default">
+      <node ref="J702" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="JP706" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J702-ID)" class="Default">
+      <node ref="J702" pin="4" pinfunction="ID" pintype="passive"/>
+      <node ref="TP705" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J702-VBUS)" class="Default">
+      <node ref="J702" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="TP704" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J705-Pin_4)" class="Default">
+      <node ref="J705" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP716" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J705-Pin_5)" class="Default">
+      <node ref="J705" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP714" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J705-Pin_6)" class="Default">
+      <node ref="J705" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="JP713" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J705-Pin_9)" class="Default">
+      <node ref="J705" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="JP712" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J705-Pin_10)" class="Default">
+      <node ref="J705" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="JP711" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J705-Pin_11)" class="Default">
+      <node ref="J705" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="JP710" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J705-Pin_12)" class="Default">
+      <node ref="J705" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="JP709" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J705-Pin_13)" class="Default">
+      <node ref="J705" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="JP707" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(JP702-A)" class="Default">
       <node ref="C701" pin="1" pintype="passive"/>
-      <node ref="JP702" pin="1" pintype="passive"/>
+      <node ref="JP702" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R702" pin="1" pintype="passive"/>
       <node ref="R703" pin="1" pintype="passive"/>
       <node ref="R704" pin="1" pintype="passive"/>
@@ -4107,115 +3805,58 @@
       <node ref="R712" pin="1" pintype="passive"/>
       <node ref="R713" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(D701-K)" class="Default">
-      <node ref="D701" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D702" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R726" pin="1" pintype="passive"/>
+    <net code="47" name="Net-(JP708-B)" class="Default">
+      <node ref="JP708" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U701" pin="27" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="34" name="Net-(J701-Pin_2)" class="Default">
-      <node ref="J701" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="JP701" pin="1" pintype="passive"/>
+    <net code="48" name="Net-(JP715-A)" class="Default">
+      <node ref="JP715" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U701" pin="25" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="35" name="Net-(J702-D+)" class="Default">
-      <node ref="J702" pin="3" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="JP704" pin="1" pintype="passive"/>
-    </net>
-    <net code="36" name="Net-(J702-D-)" class="Default">
-      <node ref="J702" pin="2" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="JP706" pin="1" pintype="passive"/>
-    </net>
-    <net code="37" name="Net-(J702-ID)" class="Default">
-      <node ref="J702" pin="4" pinfunction="ID" pintype="passive"/>
-      <node ref="TP705" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="38" name="Net-(J702-VBUS)" class="Default">
-      <node ref="J702" pin="1" pinfunction="VBUS" pintype="power_out"/>
-      <node ref="TP704" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="39" name="Net-(J705-Pin_4)" class="Default">
-      <node ref="J705" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="JP716" pin="2" pintype="passive"/>
-    </net>
-    <net code="40" name="Net-(J705-Pin_5)" class="Default">
-      <node ref="J705" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="JP714" pin="2" pintype="passive"/>
-    </net>
-    <net code="41" name="Net-(J705-Pin_6)" class="Default">
-      <node ref="J705" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="JP713" pin="2" pintype="passive"/>
-    </net>
-    <net code="42" name="Net-(J705-Pin_9)" class="Default">
-      <node ref="J705" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="JP712" pin="2" pintype="passive"/>
-    </net>
-    <net code="43" name="Net-(J705-Pin_10)" class="Default">
-      <node ref="J705" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="JP711" pin="2" pintype="passive"/>
-    </net>
-    <net code="44" name="Net-(J705-Pin_11)" class="Default">
-      <node ref="J705" pin="11" pinfunction="Pin_11" pintype="passive"/>
-      <node ref="JP710" pin="2" pintype="passive"/>
-    </net>
-    <net code="45" name="Net-(J705-Pin_12)" class="Default">
-      <node ref="J705" pin="12" pinfunction="Pin_12" pintype="passive"/>
-      <node ref="JP709" pin="2" pintype="passive"/>
-    </net>
-    <net code="46" name="Net-(J705-Pin_13)" class="Default">
-      <node ref="J705" pin="13" pinfunction="Pin_13" pintype="passive"/>
-      <node ref="JP707" pin="2" pintype="passive"/>
-    </net>
-    <net code="47" name="Net-(R702-Pad2)" class="Default">
+    <net code="49" name="Net-(R702-Pad2)" class="Default">
       <node ref="R702" pin="2" pintype="passive"/>
       <node ref="R714" pin="1" pintype="passive"/>
       <node ref="SW701" pin="B" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(R703-Pad2)" class="Default">
+    <net code="50" name="Net-(R703-Pad2)" class="Default">
       <node ref="R703" pin="2" pintype="passive"/>
       <node ref="R717" pin="1" pintype="passive"/>
       <node ref="SW701" pin="A" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(R704-Pad2)" class="Default">
+    <net code="51" name="Net-(R704-Pad2)" class="Default">
       <node ref="R704" pin="2" pintype="passive"/>
       <node ref="R720" pin="1" pintype="passive"/>
       <node ref="SW701" pin="S1" pinfunction="S1" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(R706-Pad2)" class="Default">
+    <net code="52" name="Net-(R706-Pad2)" class="Default">
       <node ref="R706" pin="2" pintype="passive"/>
       <node ref="R715" pin="1" pintype="passive"/>
       <node ref="SW702" pin="B" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(R707-Pad2)" class="Default">
+    <net code="53" name="Net-(R707-Pad2)" class="Default">
       <node ref="R707" pin="2" pintype="passive"/>
       <node ref="R718" pin="1" pintype="passive"/>
       <node ref="SW702" pin="A" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(R708-Pad2)" class="Default">
+    <net code="54" name="Net-(R708-Pad2)" class="Default">
       <node ref="R708" pin="2" pintype="passive"/>
       <node ref="R721" pin="1" pintype="passive"/>
       <node ref="SW702" pin="S1" pinfunction="S1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(R710-Pad2)" class="Default">
+    <net code="55" name="Net-(R710-Pad2)" class="Default">
       <node ref="R710" pin="2" pintype="passive"/>
       <node ref="R716" pin="1" pintype="passive"/>
       <node ref="SW703" pin="B" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(R711-Pad2)" class="Default">
+    <net code="56" name="Net-(R711-Pad2)" class="Default">
       <node ref="R711" pin="2" pintype="passive"/>
       <node ref="R719" pin="1" pintype="passive"/>
       <node ref="SW703" pin="A" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(R712-Pad2)" class="Default">
+    <net code="57" name="Net-(R712-Pad2)" class="Default">
       <node ref="R712" pin="2" pintype="passive"/>
       <node ref="R722" pin="1" pintype="passive"/>
       <node ref="SW703" pin="S1" pinfunction="S1" pintype="passive"/>
-    </net>
-    <net code="56" name="Net-(U701-PA15)" class="Default">
-      <node ref="JP715" pin="1" pintype="passive"/>
-      <node ref="U701" pin="25" pinfunction="PA15" pintype="bidirectional"/>
-    </net>
-    <net code="57" name="Net-(U701-PB4)" class="Default">
-      <node ref="JP708" pin="2" pintype="passive"/>
-      <node ref="U701" pin="27" pinfunction="PB4" pintype="bidirectional"/>
     </net>
     <net code="58" name="Net-(U701-PB5)" class="Default">
       <node ref="TP706" pin="1" pinfunction="1" pintype="passive"/>

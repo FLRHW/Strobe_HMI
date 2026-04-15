@@ -4,7 +4,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 3,2,C706 C707,1u,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,,,
 4,2,D701 D702,LED,~,LED_D3.0mm,Light emitting diode,,,
 5,8,J701 J702 J703 J704 J705 J706 J707 J708,ZHOURI DC3,~,IDC-Header_2x05_P2.54mm_Horizontal,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) USB Micro Type B connector Generic connector, single row, 01x04, script generated Generic connector, single row, 01x14, script generated Generic connector, single row, 01x02, script generated",,,
-6,15,JP701 JP702 JP704 JP705 JP706 JP707 JP708 JP709 JP710 JP711 JP712 JP713 JP714 JP715 JP716,0R,~,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Resistor,,,
+6,15,JP701 JP702 JP704 JP705 JP706 JP707 JP708 JP709 JP710 JP711 JP712 JP713 JP714 JP715 JP716,0R,~,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,"Resistor Jumper, 2-pole, small symbol, bridged",,,
 7,1,JP703,8.12,~,Jumper_mm_L8.12_D1.2_H0.5,"Jumper, 2-pole, closed/bridged",,,
 8,1,OLED701,OLED_128x64_SSD1306,,OLED_SSD1306_no_pins,,,,
 9,10,R702 R703 R704 R706 R707 R708 R710 R711 R712 R726,1k,~,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Resistor,,,
