@@ -1,0 +1,10 @@
+Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP701,/Block diagram/HMI/FREQ,Default,86.2380,52.3820,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP702,/Block diagram/HMI/SUP,Default,86.2380,86.4180,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP703,/Block diagram/HMI/PER,Default,86.2380,18.6000,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP704,Net-(J702-VBUS),Default,17.0000,99.9820,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP705,Net-(J702-ID),Default,17.0000,91.7320,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP706,Net-(U701-PB5),Default,41.0260,54.4140,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP707,/Block diagram/HMI/LV_TX,Default,41.2800,44.0000,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP708,/Block diagram/HMI/ST_LED,Default,63.6320,44.0000,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
+TP709,/Block diagram/HMI/LV_RX,Default,45.3440,40.6980,top,THRU,TestPoint,TestPoint_THTPad_D1.0mm_Drill0.5mm
