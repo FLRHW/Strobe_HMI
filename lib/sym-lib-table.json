@@ -1,0 +1,55 @@
+{
+  "version": 20231120,
+  "generator": "KiCad",
+  "unit": "mm",
+  "symbol_libs": [
+    {
+      "name": "Mechanical",
+      "type": "KiCad",
+      "uri": "library/symbols/Mechanical.kicad_sym",
+      "description": "Local copy of Mechanical"
+    },
+    {
+      "name": "Connector",
+      "type": "KiCad",
+      "uri": "library/symbols/Connector.kicad_sym",
+      "description": "Local copy of Connector"
+    },
+    {
+      "name": "power",
+      "type": "KiCad",
+      "uri": "library/symbols/power.kicad_sym",
+      "description": "Local copy of power"
+    },
+    {
+      "name": "Connector_Generic",
+      "type": "KiCad",
+      "uri": "library/symbols/Connector_Generic.kicad_sym",
+      "description": "Local copy of Connector_Generic"
+    },
+    {
+      "name": "Jumper",
+      "type": "KiCad",
+      "uri": "library/symbols/Jumper.kicad_sym",
+      "description": "Local copy of Jumper"
+    },
+    {
+      "name": "personal",
+      "type": "KiCad",
+      "uri": "library/symbols/personal.kicad_sym",
+      "description": "Local copy of personal"
+    },
+    {
+      "name": "MCU_ST_STM32G4",
+      "type": "KiCad",
+      "uri": "library/symbols/MCU_ST_STM32G4.kicad_sym",
+      "description": "Local copy of MCU_ST_STM32G4"
+    },
+    {
+      "name": "Device",
+      "type": "KiCad",
+      "uri": "library/symbols/Device.kicad_sym",
+      "description": "Local copy of Device"
+    }
+  ]
+}
