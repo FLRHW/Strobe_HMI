@@ -70,8 +70,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">9a10ef2</textvar>
-    <textvar name="GIT_HASH_SCH">8b1d373</textvar>
+    <textvar name="GIT_HASH_PCB">b04e708</textvar>
+    <textvar name="GIT_HASH_SCH">b04e708</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV Strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -79,8 +79,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
+    <textvar name="RELEASE_DATE">16-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-16</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
