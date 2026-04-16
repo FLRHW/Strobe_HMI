@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">b04e708</textvar>
+    <textvar name="GIT_HASH_PCB">c80c766</textvar>
     <textvar name="GIT_HASH_SCH">b04e708</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV Strobe</textvar>
