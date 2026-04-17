@@ -8,7 +8,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C707","1u","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",37.6810,76.0740,0.0000,top
 "C708","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",37.6810,72.7720,0.0000,top
 "C709","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",41.1100,74.5000,0.0000,top
-"C710","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",65.2500,77.5000,180.0000,top
 "C711","22p","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",53.6080,61.5750,0.0000,top
 "C712","22p","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",57.2080,64.7750,-90.0000,top
 "C713","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",62.2000,103.6900,180.0000,top
@@ -38,7 +37,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "JP714","0R","R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal",44.7090,89.8470,0.0000,top
 "JP715","0R","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",35.9460,62.6690,90.0000,top
 "JP716","0R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",45.8520,103.6900,0.0000,top
-"OLED701","OLED_128x64_SSD1306","OLED_SSD1306_no_pins",67.4425,62.8005,0.0000,top
 "R701","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",25.2780,56.1920,-90.0000,top
 "R702","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",86.2500,60.0000,0.0000,top
 "R703","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",86.2500,63.0000,0.0000,top

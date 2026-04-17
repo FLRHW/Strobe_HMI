@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">c80c766</textvar>
+    <textvar name="GIT_HASH_PCB">9e257a5</textvar>
     <textvar name="GIT_HASH_SCH">b04e708</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV Strobe</textvar>
@@ -79,8 +79,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">16-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-16</textvar>
+    <textvar name="RELEASE_DATE">17-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-17</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -387,6 +387,7 @@
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -1125,6 +1126,7 @@
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
+      <property name="dnp"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>801f1707-33ac-4dbf-bdd5-1471e9a1901e</tstamps>
     </comp>
