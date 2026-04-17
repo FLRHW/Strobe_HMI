@@ -53,6 +53,3 @@ FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 #?stackup and impedance_controlled
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 #?stackup and impedance_controlled
-
-#?stackup and impedance_controlled
-12)	CONFIRM SPACE WIDTHS AND SPACINGS.

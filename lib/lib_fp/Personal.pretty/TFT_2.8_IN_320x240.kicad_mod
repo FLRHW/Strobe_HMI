@@ -359,4 +359,15 @@
 			(xyz -0 -0 -90)
 		)
 	)
+	(model "${KIPRJMOD}/lib/3D_models/2.8IN_TFT_320x240_50x82_manual.step"
+		(offset
+			(xyz -102 -154.85 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
