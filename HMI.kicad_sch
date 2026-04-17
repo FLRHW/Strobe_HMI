@@ -13286,7 +13286,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "40679806-6750-4a35-b190-c40e441020ca")
 		(property "Reference" "C710"
 			(at 198.12 41.9099 0)
@@ -17051,7 +17051,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "801f1707-33ac-4dbf-bdd5-1471e9a1901e")
 		(property "Reference" "OLED701"
 			(at 219.71 17.78 0)

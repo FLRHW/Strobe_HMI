@@ -312,32 +312,43 @@
 		(at -22.1 -37.95)
 		(size 6 6)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9d1c7aa0-731d-409a-b13e-655a948627f3")
 	)
 	(pad "" np_thru_hole circle
 		(at -22.1 37.95)
 		(size 6 6)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "896f7474-07c6-4351-987a-544b5ff77794")
 	)
 	(pad "" np_thru_hole circle
 		(at 22.1 -37.95)
 		(size 6 6)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "a2cee5d1-c132-4465-8b65-6336719ed56c")
 	)
 	(pad "" np_thru_hole circle
 		(at 22.1 37.95)
 		(size 6 6)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "99835997-f88d-4cff-8506-d198f3945e21")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3RD_PARTY}/2.8IN_TFT_320x240_50x82_manual.step"
+		(offset
+			(xyz -102 -154.85 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "/media/data/01_Engineering/10_Kicad_libraries/00_Personal/3D/2.8IN_TFT_320x240_50x82_manual.step"
 		(offset
 			(xyz -102 -154.85 11)
 		)
