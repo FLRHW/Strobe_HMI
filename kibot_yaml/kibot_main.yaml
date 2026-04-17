@@ -557,8 +557,8 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: 1 kV Strobe
-  BOARD_NAME: HMI Board
+  PROJECT_NAME: 1 kV strobe
+  BOARD_NAME: HMI board
 
   COMPANY: ChurrasCod Electronics
   DESIGNER: FR
@@ -592,7 +592,7 @@ definitions:
   # Schematic parameters =======================================================
 
   COLOR_THEME: Altium_Theme
-  SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A4.kicad_wks
+  SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A3.kicad_wks
   FAB_SCALING: 1
   ASSEMBLY_SCALING: 1
 
