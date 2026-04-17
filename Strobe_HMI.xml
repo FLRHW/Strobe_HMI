@@ -13,7 +13,7 @@
 
 3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
-    <textvar name="BOARD_NAME">HMI Board</textvar>
+    <textvar name="BOARD_NAME">HMI board</textvar>
     <textvar name="COMPANY">ChurrasCod Electronics</textvar>
     <textvar name="DESIGNER">FR</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
@@ -67,9 +67,9 @@
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
     <textvar name="GIT_HASH_PCB">5d038b1</textvar>
-    <textvar name="GIT_HASH_SCH">ef45f04</textvar>
+    <textvar name="GIT_HASH_SCH">a1c57b7</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
-    <textvar name="PROJECT_NAME">1 kV Strobe</textvar>
+    <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>

@@ -2,7 +2,7 @@
   <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
 </p>
 
-<h1 align="center">HMI Board</h1>
+<h1 align="center">HMI board</h1>
 
 <p align="center" width="100%">
   <a href="https://github.com/FLRHW/Strobe_HMI/actions/workflows/ci.yaml">
