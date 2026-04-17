@@ -166,7 +166,7 @@ outputs:
             sketch_pads_on_fab_layers: false
             color: '#E10000'
           - layer: '@LAYER_TP_LIST_TOP@'
-            color: '#000000'
+            color: '#E10000'
 
       - scaling: @SCALING@
         mirror : true
@@ -194,7 +194,7 @@ outputs:
             sketch_pads_on_fab_layers: false
             color: '#0B00CC'
           - layer: '@LAYER_TP_LIST_BOTTOM@'
-            color: '#000000'
+            color: '#E10000'
 
       - scaling: @SCALING@
         sheet: '%ln (Scale @SCALING@:1)'
@@ -267,7 +267,7 @@ definitions:
   DIR: Manufacturing/Fabrication
   DOC_TITLE: Fabrication
   COLOR_THEME: Altium_Theme
-  SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A4.kicad_wks
+  SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A3.kicad_wks
   SCALING: 1.0
   FAB_EXCLUDE_FILTER: only_testpoints
   LAYER_DRILL_MAP: DrillMap
