@@ -67,7 +67,7 @@
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
     <textvar name="GIT_HASH_PCB">5d038b1</textvar>
-    <textvar name="GIT_HASH_SCH">b04e708</textvar>
+    <textvar name="GIT_HASH_SCH">ef45f04</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV Strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
