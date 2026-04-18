@@ -1,7 +1,3 @@
-<p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
-</p>
-
 <h1 align="center">HMI board</h1>
 
 <p align="center" width="100%">
@@ -11,7 +7,7 @@
 </p>
 
 <p align="center" width="100%">
-    <img src="Images/dummy_image.png">
+    <img src="Logos/HMI_board.png">
 </p>
 
 ***

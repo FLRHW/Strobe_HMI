@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.250 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">eee6c89</textvar>
+    <textvar name="GIT_HASH_PCB">d96861b</textvar>
     <textvar name="GIT_HASH_SCH">eee6c89</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
@@ -859,6 +859,7 @@
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>

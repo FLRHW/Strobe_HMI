@@ -3,7 +3,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 2,8,C701 C702 C703 C704 C705 C708 C709 C713,100n,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,,,
 3,2,C706 C707,1u,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,,,
 4,1,D702,LED,~,LED_PLCC-2_3x2mm_KA,Light emitting diode,Osram,LH T6MF-GGHH-1-E3L3,
-5,8,J701 J702 J703 J704 J705 J706 J707 J708,ZHOURI DC3,~,IDC-Header_2x05_P2.54mm_Horizontal,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) USB Micro Type B connector Generic connector, single row, 01x04, script generated Generic connector, single row, 01x14, script generated Generic connector, single row, 01x02, script generated",,,
+5,7,J701 J702 J704 J705 J706 J707 J708,ZHOURI DC3,~,IDC-Header_2x05_P2.54mm_Horizontal,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) USB Micro Type B connector Generic connector, single row, 01x04, script generated Generic connector, single row, 01x14, script generated Generic connector, single row, 01x02, script generated",,,
 6,6,JP701 JP708 JP710 JP713 JP714 JP715,0R,~,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Jumper,Generic,Hand cut wire,
 7,9,JP702 JP704 JP705 JP706 JP707 JP709 JP711 JP712 JP716,0R,~,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,Jumper,Yageo,RC0603JR-130RP,
 8,1,JP703,8.12,~,Jumper_mm_L8.12_D1.2_H0.5,"Jumper, 2-pole, closed/bridged",Generic,Hand cut wire,

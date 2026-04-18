@@ -14,7 +14,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D702","LED","LED_PLCC-2_3x2mm_KA",66.3535,15.8330,-90.0000,top
 "J701","ZHOURI DC3","IDC-Header_2x05_P2.54mm_Horizontal",35.4475,34.8560,180.0000,top
 "J702","1050171001 Micro Type B","USB_Micro-B_Molex-105017-0001",12.7500,95.7320,-90.0000,top
-"J703","Conn_01x04_Pin","PinSocket_1x04_P2.54mm_Vertical",63.7090,75.0000,90.0000,top
 "J704","Conn_01x04_Pin","PinSocket_1x04_P2.54mm_Vertical",50.9320,22.4100,-90.0000,top
 "J705","Conn_01x14_Pin","PinSocket_1x14_P2.54mm_Vertical",63.6320,100.6420,-90.0000,top
 "J706","Header","PinHeader_1x02_P2.54mm_Vertical",51.4400,15.2980,90.0000,top
