@@ -11,7 +11,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C711","22p","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",53.6080,61.5750,0.0000,top
 "C712","22p","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",57.2080,64.7750,-90.0000,top
 "C713","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",62.2000,103.6900,180.0000,top
-"D701","LED","LED_D3.0mm",62.5435,17.1030,-90.0000,top
 "D702","LED","LED_PLCC-2_3x2mm_KA",66.3535,15.8330,-90.0000,top
 "J701","ZHOURI DC3","IDC-Header_2x05_P2.54mm_Horizontal",35.4475,34.8560,180.0000,top
 "J702","1050171001 Micro Type B","USB_Micro-B_Molex-105017-0001",12.7500,95.7320,-90.0000,top

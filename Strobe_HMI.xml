@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.250 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">5d038b1</textvar>
-    <textvar name="GIT_HASH_SCH">a1c57b7</textvar>
+    <textvar name="GIT_HASH_PCB">eee6c89</textvar>
+    <textvar name="GIT_HASH_SCH">eee6c89</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -75,8 +75,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">17-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-17</textvar>
+    <textvar name="RELEASE_DATE">18-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-18</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -123,7 +123,7 @@
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -204,11 +204,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -223,11 +229,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -242,11 +254,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -261,11 +279,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -280,11 +304,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -299,11 +329,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -318,11 +354,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -337,11 +379,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -356,11 +404,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -375,11 +429,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -395,11 +455,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -414,11 +480,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -433,11 +505,17 @@
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -453,15 +531,22 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Generic 3 mm LED</field>
         <field name="Footprint">LED_THT:LED_D3.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Generic 3 mm LED"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="LED diode"/>
       <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/Block diagram/HMI/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -474,12 +559,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Config"/>
+        <field name="Manufacturer">Osram</field>
+        <field name="Manufacturer Part Number">LH T6MF-GGHH-1-E3L3</field>
         <field name="Footprint">LED_SMD:LED_PLCC-2_3x2mm_KA</field>
         <field name="Datasheet">~</field>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Osram"/>
+      <property name="Manufacturer Part Number" value="LH T6MF-GGHH-1-E3L3"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -494,11 +585,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -514,11 +611,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -534,11 +637,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -554,11 +663,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -574,11 +689,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -594,11 +715,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -614,11 +741,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -634,11 +767,17 @@
       <datasheet>~</datasheet>
       <description>Mounting Hole without connection</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -655,12 +794,18 @@
       <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="Field5">https://www.lcsc.com/product-detail/IDC-Connectors_ZHOURI-DC3-2-54-10PAL_C5156674.html?s_z=n_JILN%2520321010SG0ABK00A01</field>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Field5" value="https://www.lcsc.com/product-detail/IDC-Connectors_ZHOURI-DC3-2-54-10PAL_C5156674.html?s_z=n_JILN%2520321010SG0ABK00A01"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -675,11 +820,17 @@
       <datasheet>~</datasheet>
       <description>USB Micro Type B connector</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:USB_Micro-B_Molex-105017-0001</field>
         <field name="Datasheet">~</field>
         <field name="Description">USB Micro Type B connector</field>
       </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -694,11 +845,17 @@
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x04, script generated</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x04, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -713,11 +870,17 @@
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x04, script generated</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x04, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -732,11 +895,17 @@
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x14, script generated</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x14, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x14_Pin" description="Generic connector, single row, 01x14, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -751,11 +920,17 @@
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x02, script generated</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x02, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -771,12 +946,18 @@
       <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="Field5">https://www.lcsc.com/product-detail/IDC-Connectors_hanxia-HX-JN1-27-2x5-WZ-H4-9_C42372551.html?s_z=n_JILN%2520321010SG0ABK00A01</field>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:JN1.27-2x5 WZ H4.9</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Field5" value="https://www.lcsc.com/product-detail/IDC-Connectors_hanxia-HX-JN1-27-2x5-WZ-H4-9_C42372551.html?s_z=n_JILN%2520321010SG0ABK00A01"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -792,12 +973,18 @@
       <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="Field5">https://lcsc.com/product-detail/IDC-Connectors_JILN-321010SG0ABK00A01_C429962.html?s_z=n_idc</field>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:JN1.27-2x5 WZ H4.9</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Field5" value="https://lcsc.com/product-detail/IDC-Connectors_JILN-321010SG0ABK00A01_C429962.html?s_z=n_idc"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -810,13 +997,19 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -829,13 +1022,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -850,11 +1049,17 @@
       <datasheet>~</datasheet>
       <description>Jumper, 2-pole, closed/bridged</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Personal:Jumper_mm_L8.12_D1.2_H0.5</field>
         <field name="Datasheet">~</field>
         <field name="Description">Jumper, 2-pole, closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -867,13 +1072,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -886,13 +1097,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -905,13 +1122,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -924,13 +1147,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -943,13 +1172,19 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -962,13 +1197,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -981,13 +1222,19 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1000,13 +1247,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1019,13 +1272,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1038,13 +1297,19 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1057,13 +1322,19 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1076,13 +1347,19 @@
       <value>0R</value>
       <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, small symbol, bridged</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Generic</field>
+        <field name="Manufacturer Part Number">Hand cut wire</field>
         <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, small symbol, bridged</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Jumper" part="Jumper_2_Small_Bridged" description="Jumper, 2-pole, small symbol, bridged"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="Manufacturer Part Number" value="Hand cut wire"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1095,13 +1372,19 @@
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>Jumper</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0603JR-130RP</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">Jumper</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0603JR-130RP"/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1114,11 +1397,17 @@
       <value>OLED_128x64_SSD1306</value>
       <footprint>Personal:OLED_SSD1306_no_pins</footprint>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:OLED_SSD1306_no_pins</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="OLED_128x64_SSD1306_no_pins" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1130,11 +1419,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1147,11 +1442,17 @@
       <value>~</value>
       <description>Local power symbol (source), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (source), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR_SRC" description="Local power symbol (source), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1163,11 +1464,17 @@
     <comp ref="P4">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1179,11 +1486,17 @@
     <comp ref="P5">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1195,11 +1508,17 @@
     <comp ref="P6">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1211,11 +1530,17 @@
     <comp ref="P7">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1227,11 +1552,17 @@
     <comp ref="P8">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1244,11 +1575,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1260,11 +1597,17 @@
     <comp ref="P714">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1276,11 +1619,17 @@
     <comp ref="P715">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1292,11 +1641,17 @@
     <comp ref="P716">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1309,11 +1664,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1326,11 +1687,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1343,11 +1710,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1359,11 +1732,17 @@
     <comp ref="P731">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1375,11 +1754,17 @@
     <comp ref="P732">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1392,11 +1777,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1408,11 +1799,17 @@
     <comp ref="P734">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1424,11 +1821,17 @@
     <comp ref="P736">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1441,11 +1844,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1457,11 +1866,17 @@
     <comp ref="P744">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1473,11 +1888,17 @@
     <comp ref="P745">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1489,11 +1910,17 @@
     <comp ref="P746">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1505,11 +1932,17 @@
     <comp ref="P747">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1521,11 +1954,17 @@
     <comp ref="P748">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1538,11 +1977,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1554,11 +1999,17 @@
     <comp ref="P750">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1570,11 +2021,17 @@
     <comp ref="P751">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1586,11 +2043,17 @@
     <comp ref="P752">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1602,11 +2065,17 @@
     <comp ref="P753">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1618,11 +2087,17 @@
     <comp ref="P754">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1634,11 +2109,17 @@
     <comp ref="P755">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1650,11 +2131,17 @@
     <comp ref="P756">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1666,11 +2153,17 @@
     <comp ref="P757">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1682,11 +2175,17 @@
     <comp ref="P758">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1698,11 +2197,17 @@
     <comp ref="P760">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1714,11 +2219,17 @@
     <comp ref="P761">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1730,11 +2241,17 @@
     <comp ref="P762">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1746,11 +2263,17 @@
     <comp ref="P763">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1762,11 +2285,17 @@
     <comp ref="P764">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1778,11 +2307,17 @@
     <comp ref="P765">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1794,11 +2329,17 @@
     <comp ref="P766">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1810,11 +2351,17 @@
     <comp ref="P767">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1826,11 +2373,17 @@
     <comp ref="P768">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1842,11 +2395,17 @@
     <comp ref="P769">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1858,11 +2417,17 @@
     <comp ref="P770">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1875,11 +2440,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1891,11 +2462,17 @@
     <comp ref="P772">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1907,11 +2484,17 @@
     <comp ref="P773">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1923,11 +2506,17 @@
     <comp ref="P774">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1939,11 +2528,17 @@
     <comp ref="P775">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1955,11 +2550,17 @@
     <comp ref="P776">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1971,11 +2572,17 @@
     <comp ref="P777">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -1987,11 +2594,17 @@
     <comp ref="P781">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2003,11 +2616,17 @@
     <comp ref="P782">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2019,11 +2638,17 @@
     <comp ref="P784">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2035,11 +2660,17 @@
     <comp ref="P786">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2052,11 +2683,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2068,11 +2705,17 @@
     <comp ref="P790">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2085,11 +2728,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2102,11 +2751,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2119,11 +2774,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2136,11 +2797,17 @@
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2152,11 +2819,17 @@
     <comp ref="P799">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2168,11 +2841,17 @@
     <comp ref="P800">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2184,11 +2863,17 @@
     <comp ref="P801">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_IO" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2200,11 +2885,17 @@
     <comp ref="P802">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2216,11 +2907,17 @@
     <comp ref="P803">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2232,11 +2929,17 @@
     <comp ref="P804">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2248,11 +2951,17 @@
     <comp ref="P805">
       <value>~</value>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2267,11 +2976,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2286,11 +3001,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2305,11 +3026,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2324,11 +3051,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2343,11 +3076,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2362,11 +3101,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2381,11 +3126,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2400,11 +3151,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2419,11 +3176,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2438,11 +3201,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2457,11 +3226,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2476,11 +3251,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2495,11 +3276,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2514,11 +3301,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2533,11 +3326,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2552,11 +3351,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2571,11 +3376,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2590,11 +3401,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2609,11 +3426,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2628,11 +3451,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2647,11 +3476,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2666,11 +3501,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2685,11 +3526,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2704,11 +3551,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2723,11 +3576,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2742,11 +3601,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2761,11 +3626,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2780,11 +3651,17 @@
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2799,11 +3676,17 @@
       <datasheet>~</datasheet>
       <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:RotaryEncoderSwitch_Oblong</field>
         <field name="Datasheet">~</field>
         <field name="Description">Rotary encoder, dual channel, incremental quadrate outputs, with switch</field>
       </fields>
       <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2818,11 +3701,17 @@
       <datasheet>~</datasheet>
       <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:RotaryEncoderSwitch_Oblong</field>
         <field name="Datasheet">~</field>
         <field name="Description">Rotary encoder, dual channel, incremental quadrate outputs, with switch</field>
       </fields>
       <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2837,11 +3726,17 @@
       <datasheet>~</datasheet>
       <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:RotaryEncoderSwitch_Oblong</field>
         <field name="Datasheet">~</field>
         <field name="Description">Rotary encoder, dual channel, incremental quadrate outputs, with switch</field>
       </fields>
       <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2854,11 +3749,17 @@
       <value>TFT_2.8in_320x240</value>
       <footprint>Personal:TFT_2.8_IN_320x240</footprint>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Personal:TFT_2.8_IN_320x240</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="personal" part="TFT_2.8_IN_320x240" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2871,11 +3772,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2890,11 +3797,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2909,11 +3822,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2928,11 +3847,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2947,11 +3872,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2966,11 +3897,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -2985,11 +3922,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -3004,11 +3947,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -3023,11 +3972,17 @@
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -3042,11 +3997,17 @@
       <datasheet>https://www.st.com/resource/en/datasheet/stm32g431k8.pdf</datasheet>
       <description>STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
         <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g431k8.pdf</field>
         <field name="Description">STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32</field>
       </fields>
       <libsource lib="MCU_ST_STM32G4" part="STM32G431K8Tx" description="STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
@@ -3061,11 +4022,17 @@
       <datasheet>~</datasheet>
       <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
       <fields>
+        <field name="Config"/>
+        <field name="Manufacturer"/>
+        <field name="Manufacturer Part Number"/>
         <field name="Footprint">Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering</field>
         <field name="Datasheet">~</field>
         <field name="Description">Four pin crystal, GND on pins 2 and 4, small symbol</field>
       </fields>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="HMI"/>
       <property name="Sheetfile" value="HMI.kicad_sch"/>
       <property name="RefDes" value="700"/>
