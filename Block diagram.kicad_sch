@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Block diagram")
 		(date "2025-01-12")
@@ -11,10 +11,179 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 63.5 50.8)
+		(end 101.6 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 119 190 255 0.5019607843)
+		)
+		(uuid 08cb8565-1485-4c1b-a3c5-1e107b03491d)
+	)
+	(rectangle
+		(start 177.8 38.1)
+		(end 241.3 114.3)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 398579f6-834f-41d9-bc38-a85679757054)
+	)
+	(rectangle
+		(start 50.8 38.1)
+		(end 165.1 114.3)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b33ae60c-2cbb-4fb6-980d-3c753363be5d)
+	)
+	(rectangle
+		(start 114.3 50.8)
+		(end 152.4 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 119 190 255 0.5019607843)
+		)
+		(uuid b8685661-52f3-4b87-9eb4-2894dcd3714f)
+	)
+	(text "Interim solution 1"
+		(exclude_from_sim no)
+		(at 82.55 88.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(href "https://github.com/FLRHW/StepUp_module_12to450V")
+		)
+		(uuid "05c693a0-a56c-4edf-b74a-66297541fde0")
+	)
+	(text "Under development"
+		(exclude_from_sim no)
+		(at 63.5 77.47 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "08277b32-b0b1-408d-995c-0e83e251147b")
+	)
+	(text "Scope of this document"
+		(exclude_from_sim no)
+		(at 177.8 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "41b82d6d-86b5-4a89-8667-fd064d0554c7")
+	)
+	(text "Repo link"
+		(exclude_from_sim no)
+		(at 133.35 76.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(href "https://github.com/FLRHW/Strobe_main")
+		)
+		(uuid "56f0924d-2a1c-44ff-8d3a-5a242d068006")
+	)
+	(text "Main board"
+		(exclude_from_sim no)
+		(at 114.3 49.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5960e80a-9636-4b36-a852-b7f55998f34c")
+	)
+	(text "Interim solution 2"
+		(exclude_from_sim no)
+		(at 82.55 95.25 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(href "https://github.com/FLRHW/Isolated_12to450V")
+		)
+		(uuid "5a71133d-87d5-4bc3-8e43-2adca83dade7")
+	)
+	(text "Separate repositories"
+		(exclude_from_sim no)
+		(at 50.8 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7ddc650-1b4c-4338-a889-1f7f6a191342")
+	)
+	(text "Power supply"
+		(exclude_from_sim no)
+		(at 63.5 49.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff35b25a-ae23-4151-b87a-a9320a2c0f61")
+	)
+	(text_box "The power supply board has not yet been developed.\nAs interim solution, two commercially available DCDC modules (12 V to 450 V) were used, as well as an adjustable lab power supply (to provide the low voltage required by the main board).\nThe repositories linked document the reverse engineering of the commercial module and its modification from non isolated to isolated."
+		(exclude_from_sim no)
+		(at 50.8 127 0)
+		(size 76.2 17.78)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "830ce0cd-5ca3-49c0-967f-d813325d8938")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 279.4 21.59 0)
-		(size 127 12.7)
+		(at 154.94 13.97 0)
+		(size 128.27 12.7)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
@@ -26,18 +195,128 @@
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 7.62 7.62)
+				(size 5.08 5.08)
 				(thickness 1.2)
 				(bold yes)
 				(color 0 0 194 1)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
+	(polyline
+		(pts
+			(xy 111.76 78.74) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4dba53f2-1036-43f8-ba27-4e93d6a93889")
+	)
+	(polyline
+		(pts
+			(xy 104.14 78.74) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4dbee0ce-3873-4d40-9de6-150c32c3e2cf")
+	)
+	(polyline
+		(pts
+			(xy 190.5 76.2) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7e7c3967-bd71-4871-a9ad-5801c60d1aae")
+	)
+	(polyline
+		(pts
+			(xy 101.6 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "941dbe83-da62-4933-b6a0-440bd9b453bc")
+	)
+	(polyline
+		(pts
+			(xy 101.6 76.2) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9d799379-95d9-489d-a79c-dc0cd8f42b72")
+	)
+	(polyline
+		(pts
+			(xy 152.4 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "db1923dd-23d3-415a-a6f8-6fcd5f4c017f")
+	)
+	(polyline
+		(pts
+			(xy 154.94 78.74) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "db71246e-d785-4989-a7b3-d532cbe13300")
+	)
+	(polyline
+		(pts
+			(xy 114.3 76.2) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e3321ee0-0fe1-491c-b2b9-ba564ffa891c")
+	)
+	(polyline
+		(pts
+			(xy 152.4 76.2) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e549c6be-f6a3-4083-ad60-de484780679a")
+	)
+	(polyline
+		(pts
+			(xy 187.96 78.74) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f104e544-c690-4f41-a325-6d60377fc371")
+	)
 	(sheet
-		(at 127 81.28)
-		(size 36.83 45.72)
+		(at 190.5 50.8)
+		(size 36.83 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -51,17 +330,17 @@
 		)
 		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
 		(property "Sheetname" "HMI"
-			(at 127 80.2509 0)
+			(at 190.5 49.7709 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 					(thickness 0.1588)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "HMI.kicad_sch"
-			(at 127 127.5846 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(face "Arial")
@@ -71,12 +350,12 @@
 			)
 		)
 		(property "RefDes" "700"
-			(at 163.83 80.01 0)
+			(at 227.33 49.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
-				(justify right)
+				(justify right bottom)
 			)
 		)
 		(instances

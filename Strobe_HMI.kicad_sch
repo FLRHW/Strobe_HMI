@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(date "2025-01-12")
 		(rev "${REVISION}")
@@ -12,11 +12,11 @@
 	(lib_symbols)
 	(text "Status: ${VARIANT}"
 		(exclude_from_sim no)
-		(at 398.78 53.34 0)
+		(at 280.67 29.21 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 10.16 10.16)
+				(size 7.62 7.62)
 				(thickness 1)
 				(bold yes)
 				(color 0 0 194 1)
@@ -27,11 +27,11 @@
 	)
 	(text "${SHEET_NAME_2}"
 		(exclude_from_sim no)
-		(at 38.1 71.12 0)
+		(at 36.83 60.96 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
@@ -41,11 +41,11 @@
 	)
 	(text "Page"
 		(exclude_from_sim no)
-		(at 31.75 50.8 0)
+		(at 30.48 40.64 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(bold yes)
 				(color 0 0 0 1)
 			)
@@ -55,11 +55,11 @@
 	)
 	(text "${RELEASE_DATE_NUM}"
 		(exclude_from_sim no)
-		(at 398.78 71.12 0)
+		(at 280.67 41.91 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 10.16 10.16)
+				(size 7.62 7.62)
 				(thickness 1)
 				(bold yes)
 				(color 0 0 194 1)
@@ -70,11 +70,11 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 31.75 63.5 0)
+		(at 30.48 53.34 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify right bottom)
@@ -84,11 +84,11 @@
 	)
 	(text "Rev ${REVISION}"
 		(exclude_from_sim no)
-		(at 398.78 35.56 0)
+		(at 168.91 29.21 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 10.16 10.16)
+				(size 7.62 7.62)
 				(thickness 1)
 				(bold yes)
 				(color 0 0 194 1)
@@ -99,7 +99,7 @@
 	)
 	(text "BOTTOM VIEW"
 		(exclude_from_sim no)
-		(at 259.08 101.6 0)
+		(at 190.5 55.88 0)
 		(effects
 			(font
 				(face "Arial")
@@ -113,11 +113,11 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 31.75 71.12 0)
+		(at 30.48 60.96 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify right bottom)
@@ -127,11 +127,11 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 31.75 78.74 0)
+		(at 30.48 68.58 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify right bottom)
@@ -141,11 +141,11 @@
 	)
 	(text "${BOARD_NAME}"
 		(exclude_from_sim no)
-		(at 25.4 40.64 0)
+		(at 15.24 29.21 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 10.16 10.16)
+				(size 7.62 7.62)
 				(thickness 1)
 				(bold yes)
 				(color 0 0 194 1)
@@ -156,11 +156,11 @@
 	)
 	(text "${SHEET_NAME_1}"
 		(exclude_from_sim no)
-		(at 38.1 63.5 0)
+		(at 36.83 53.34 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
@@ -170,11 +170,11 @@
 	)
 	(text "${SHEET_NAME_3}"
 		(exclude_from_sim no)
-		(at 38.1 78.74 0)
+		(at 36.83 68.58 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
@@ -184,7 +184,7 @@
 	)
 	(text "TOP VIEW"
 		(exclude_from_sim no)
-		(at 106.68 101.6 0)
+		(at 88.9 55.88 0)
 		(effects
 			(font
 				(face "Arial")
@@ -198,11 +198,11 @@
 	)
 	(text "Index"
 		(exclude_from_sim no)
-		(at 38.1 50.8 0)
+		(at 36.83 40.64 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(bold yes)
 				(color 0 0 0 1)
 			)
@@ -212,11 +212,11 @@
 	)
 	(text "${SHEET_NAME_4}"
 		(exclude_from_sim no)
-		(at 38.1 86.36 0)
+		(at 36.83 76.2 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
@@ -226,11 +226,11 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 31.75 86.36 0)
+		(at 30.48 76.2 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 4 4)
+				(size 3.048 3.048)
 				(color 0 0 0 1)
 			)
 			(justify right bottom)
@@ -240,11 +240,11 @@
 	)
 	(text "NOTE STYLING CONVENTION"
 		(exclude_from_sim no)
-		(at 26.67 256.54 0)
+		(at 16.51 161.29 0)
 		(effects
 			(font
 				(face "Arial")
-				(size 3.81 3.81)
+				(size 3.048 3.048)
 				(bold yes)
 				(color 53 60 207 1)
 			)
@@ -254,8 +254,8 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
 		(exclude_from_sim no)
-		(at 101.6 260.35 0)
-		(size 31.75 19.05)
+		(at 66.04 162.56 0)
+		(size 21.59 13.97)
 		(margins 2 2 2 2)
 		(stroke
 			(width 0.508)
@@ -269,7 +269,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 2.032 2.032)
+				(size 1.524 1.524)
 				(color 0 0 0 1)
 			)
 			(justify left top)
@@ -278,8 +278,8 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for debug notes."
 		(exclude_from_sim no)
-		(at 63.5 260.35 0)
-		(size 31.75 19.05)
+		(at 40.64 162.56 0)
+		(size 21.59 13.97)
 		(margins 2 2 2 2)
 		(stroke
 			(width 0.508)
@@ -293,7 +293,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 2.032 2.032)
+				(size 1.524 1.524)
 				(color 0 0 0 1)
 			)
 			(justify left top)
@@ -302,8 +302,8 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for critical design notes."
 		(exclude_from_sim no)
-		(at 139.7 260.35 0)
-		(size 31.75 19.05)
+		(at 15.24 180.34 0)
+		(size 21.59 13.97)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0.508)
@@ -317,7 +317,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 2.032 2.032)
+				(size 1.524 1.524)
 				(thickness 0.4)
 				(color 0 0 0 1)
 			)
@@ -327,8 +327,8 @@
 	)
 	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
 		(exclude_from_sim no)
-		(at 177.8 260.35 0)
-		(size 31.75 19.05)
+		(at 40.64 180.34 0)
+		(size 21.59 13.97)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0.508)
@@ -342,7 +342,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 2.032 2.032)
+				(size 1.524 1.524)
 				(thickness 0.4)
 				(color 0 0 0 1)
 			)
@@ -352,8 +352,8 @@
 	)
 	(text_box "kibot_image_png_3d_viewer_angled_bottom"
 		(exclude_from_sim no)
-		(at 254 101.6 0)
-		(size 139.7 127)
+		(at 185.42 55.88 0)
+		(size 88.9 88.9)
 		(margins 1.905 1.905 1.905 1.905)
 		(stroke
 			(width 0)
@@ -372,8 +372,8 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for informational design notes."
 		(exclude_from_sim no)
-		(at 25.4 260.35 0)
-		(size 31.75 19.05)
+		(at 15.24 162.56 0)
+		(size 21.59 13.97)
 		(margins 2 2 2 2)
 		(stroke
 			(width 0.508)
@@ -387,7 +387,7 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 2.032 2.032)
+				(size 1.524 1.524)
 				(color 0 0 0 1)
 			)
 			(justify left top)
@@ -396,8 +396,8 @@
 	)
 	(text_box "kibot_image_png_3d_viewer_angled_top"
 		(exclude_from_sim no)
-		(at 101.6 101.6 0)
-		(size 139.7 127)
+		(at 83.82 55.88 0)
+		(size 88.9 88.9)
 		(margins 1.905 1.905 1.905 1.905)
 		(stroke
 			(width 0)
@@ -416,7 +416,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 53.34) (xy 92.71 53.34)
+			(xy 36.83 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 1)
@@ -427,7 +427,7 @@
 	)
 	(polyline
 		(pts
-			(xy 19.05 53.34) (xy 31.75 53.34)
+			(xy 21.59 43.18) (xy 30.48 43.18)
 		)
 		(stroke
 			(width 1)
@@ -437,7 +437,7 @@
 		(uuid "a3703ec8-87d6-4c32-a8ca-249d86e6160c")
 	)
 	(sheet
-		(at 340.36 302.26)
+		(at 251.46 215.9)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -452,7 +452,7 @@
 		)
 		(uuid "6e125bd6-2f99-4e5d-b3ea-4899f4540739")
 		(property "Sheetname" "Revision History"
-			(at 340.36 300.99 0)
+			(at 251.46 214.63 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -464,7 +464,7 @@
 			)
 		)
 		(property "Sheetfile" "Revision History.kicad_sch"
-			(at 340.995 303.53 0)
+			(at 252.095 217.17 0)
 			(effects
 				(font
 					(face "Arial")
@@ -476,13 +476,13 @@
 		(instances
 			(project "Strobe_HMI"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "7")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 299.72 302.26)
+		(at 210.82 215.9)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -497,7 +497,7 @@
 		)
 		(uuid "c5103ceb-5325-4a84-a025-9638a412984e")
 		(property "Sheetname" "Block diagram"
-			(at 299.72 301.2309 0)
+			(at 210.82 214.8709 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -509,7 +509,7 @@
 			)
 		)
 		(property "Sheetfile" "Block diagram.kicad_sch"
-			(at 300.99 303.53 0)
+			(at 212.09 217.17 0)
 			(effects
 				(font
 					(face "Arial")
@@ -521,7 +521,7 @@
 		(instances
 			(project "Strobe_HMI"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
