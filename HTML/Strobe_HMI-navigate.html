@@ -235,7 +235,7 @@ So that's what this repo contains: a Xenon-based strobe light, aiming to drive a
 
 
 ## Project overview
-This repository contains KiCad v9 design files and STM32 source code for the HMI board of a Xenon-based strobe light system.
+This repository contains KiCad v9 design files for the HMI board of a Xenon-based strobe light system.
 The system is divided into three separate boards:
 - HMI - so the user can set desired operating conditions (bus voltage, pulse width and pulse frequency)
 - Main board - drives the Xenon bulb, generating the trigger pulse and actively interrupting the discharge according to the required pulse width
@@ -243,6 +243,9 @@ The system is divided into three separate boards:
 
 Working prototypes exist for both the HMI and main board. This repository covers only the HMI board. The main board is available on its own repo:
 https://github.com/FLRHW/Strobe_main
+
+The source code is kept on a separate repo:
+https://github.com/FLRHW/Strobe_HMI_source
 
 As a side project, the boost modules have been reverse engineered with the aim to modify them from non-isolated to isolated. This work is covered under the following repos:
 - https://github.com/FLRHW/StepUp_module_12to450V
@@ -283,7 +286,6 @@ Any reference to third‑party marks is purely descriptive and does not imply en
 ## DIRECTORY STRUCTURE
     │
     ├─ Computations       # Misc calculations
-    ├─ Code               # STM32 project / source code
     ├─ HTML               # HTML files for generated webpage
     ├─ Images             # Pictures and renders
     │
