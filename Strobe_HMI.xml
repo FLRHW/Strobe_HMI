@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.250 mm
 	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.250 mm</textvar>
-    <textvar name="GIT_HASH_PCB">d10b354</textvar>
-    <textvar name="GIT_HASH_SCH">d10b354</textvar>
+    <textvar name="GIT_HASH_PCB">3300193</textvar>
+    <textvar name="GIT_HASH_SCH">f2c1725</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Strobe_HMI</textvar>
     <textvar name="PROJECT_NAME">1 kV strobe</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -86,7 +86,7 @@ Moved source code to a separate repository</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.1</textvar>
+    <textvar name="REVISION">1.0.1+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -127,12 +127,12 @@ Moved source code to a separate repository</textvar>
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Strobe_HMI.kicad_sch</source>
         <comment number="1" value=""/>
@@ -150,7 +150,7 @@ Moved source code to a separate repository</textvar>
       <title_block>
         <title>Block diagram</title>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -168,7 +168,7 @@ Moved source code to a separate repository</textvar>
       <title_block>
         <title>HMI</title>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>HMI.kicad_sch</source>
         <comment number="1" value=""/>
@@ -186,7 +186,7 @@ Moved source code to a separate repository</textvar>
       <title_block>
         <title>Revision History</title>
         <company>ChurrasCod Electronics</company>
-        <rev>1.0.1</rev>
+        <rev>1.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
