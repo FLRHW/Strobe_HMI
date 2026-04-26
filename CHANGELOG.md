@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+### Moved source code to a separate repository
+
 ## [1.0.0] - 2026-04-19
 
 ### Migrated existing project to template (KDT)
