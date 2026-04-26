@@ -84,7 +84,7 @@
 	)
 	(text "Rev ${REVISION}"
 		(exclude_from_sim no)
-		(at 168.91 29.21 0)
+		(at 80.01 29.21 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -93,7 +93,7 @@
 				(bold yes)
 				(color 0 0 194 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6d1761f6-980b-4588-8313-1bd3d937c291")
 	)
